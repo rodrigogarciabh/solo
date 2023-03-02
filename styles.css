@@ -1,0 +1,114 @@
+body {
+    font-family: 'Limelight', cursive;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #6594a6c8;
+}
+
+h1, h3 {
+    text-shadow: 1px 1px 1px #e9f5f9;
+    color: #2186ab50;
+}
+
+h1 {
+    margin: 35px auto 1px;
+}
+
+h3 {
+    margin: 10px auto;
+    padding-bottom: 80px;
+}
+
+#header {
+    background-image: url("imgs/fundo.jpeg");
+    background-size: cover;
+    width: 800px;
+    color: #283d3b;
+    border: solid 3px #bee0ec;
+    padding: 5px 50px 40px;
+    border-top-left-radius: 25px;
+    border-bottom-style: dashed;
+    font-size: 35px;
+}
+
+#maincard {
+    width: 800px;
+    background: #1e779823;
+    color: #0b2d39;
+    border: solid 3px #bee0ec;
+    padding: 5px 50px 40px;
+    border-bottom-right-radius: 25px;
+    border-top-style: dashed;
+    font-size: 35px;
+}
+
+#divlugares {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+#foto_lugar {
+    width: 150px;
+    border-radius: 50%;
+    border: dotted 4px #7cc0d8;
+}
+
+.titlelugar {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.titledesclugar {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 450px;
+    height: auto;
+    background-color: #92cbdf69;
+    color: #283d3b;
+    padding: 10px 10px;
+    border-radius: 10%;
+    border-bottom: solid 12px #0f3c4c;
+}
+
+#foto_autor {
+    border-radius: 10%;
+    border: 4px #0f3c4c;
+    border-style: double;
+    margin-bottom: 10px;
+    width: 230px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+#title_card {
+    font-style: bold;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+#text_card {
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#sign_card {
+    margin: 40px, 10px, 15px;
+    font-style: italic;
+    font-size: 16px;
+    text-align: right;
+}
